@@ -1,8 +1,19 @@
 package com.office.helloworld.model;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+
+/**
+ * @author amandeep.singh
+ *
+ */
 public class Review {
 
+	@Email(message = "Please enter correct email address")
 	private String username;
+	@Min(value =1, message ="minimum 1")
+	@Max(value = 10, message ="maximum 10")
 	private int rating;
 	private boolean approved;
 	
