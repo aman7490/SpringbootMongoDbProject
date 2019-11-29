@@ -1,0 +1,13 @@
+2019-11-29 19:24:44,824 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 14004 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-11-29 19:24:44,838 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-29 19:24:44,839 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 19:25:05,711 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 22.227 seconds (JVM running for 25.068)
+2019-11-29 19:25:39,582 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-11-29 19:30:18,267 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Fetching all hotels resource
+2019-11-29 19:33:00,900 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10672 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-11-29 19:33:00,911 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-29 19:33:00,912 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 19:33:27,906 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 7400 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-11-29 19:33:27,911 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-29 19:33:27,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 19:33:43,502 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 16.833 seconds (JVM running for 18.98)

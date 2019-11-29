@@ -47,6 +47,7 @@ public class HotelController {
 	@GetMapping("/all")
 	public List<Hotel> getallhotels(Hotel hotel) {
 		log.info("Fetching all hotels resource");
+		log.warn("Fetching all hotels resource");
 		List<Hotel> hotels = this.hotelRepository.findAll();
 		return hotels;
 	}
@@ -67,7 +68,10 @@ public class HotelController {
 
 	@PostMapping("/add")
 	public ResponseEntity<Object> addhotel(@Valid @RequestBody Hotel hotel) {
-
+		
+		log.info("Add hotels hotels resource - info");
+		log.warn("Add hotels resource - warn");
+		log.debug("Add hotels - debug");
 		hotelRepository.insert(hotel);
 		
 		// this below location value will appear in response header with the location, where the records have been saved with their id.
@@ -82,7 +86,9 @@ public class HotelController {
 
 	@PutMapping("/update/{id}")
 	public void updatehotel(@RequestBody Hotel hotel, @PathVariable("id") String id) {
-
+		log.info("update hotels hotels resource - info");
+		log.warn("update hotels resource - warn");
+		log.debug("update hotels - debug");
 		hotelRepository.save(hotel);
 
 	}
@@ -90,6 +96,10 @@ public class HotelController {
 	@DeleteMapping("/delete/{id}")
 	public void deletehotel(@PathVariable("id") String id) {
 
+		log.info("delete hotels hotels resource - info");
+		log.warn("delete hotels resource - warn");
+		log.debug("delete hotels - debug");
+		
 		hotelRepository.deleteById(id);
 
 	}
@@ -99,7 +109,14 @@ public class HotelController {
 		
 		Optional<Hotel> hotel = daoService.gethotelid(id);
 		
+		log.info("getbyid hotels hotels resource - info");
+		log.warn("getbyid hotels resource - warn");
+		log.debug("getbyid hotels - debug");
+		
+		
 		if(hotel.isPresent() == false) {
+			log.warn("hotel not found and exception will occur");
+			log.error("hotel not found and exception will occur");
 			throw new HotelNotFoundException("id -"+id);
 		}  
 		return hotel;	
@@ -107,7 +124,11 @@ public class HotelController {
 
 	@GetMapping("getbyrate/{maxrate}")
 	public List<Hotel> getbyratepernight(@PathVariable("maxrate") Integer maxrate) {
-
+		
+		log.info("getbyrate hotels hotels resource - info");
+		log.warn("getbyrate hotels resource - warn");
+		log.debug("getbyrate hotels - debug");
+		
 		List<Hotel> hotels = hotelRepository.findByratepernightLessThan(maxrate);
 		return hotels;
 
@@ -115,7 +136,9 @@ public class HotelController {
 
 	@GetMapping("/findbycity/{city}")
 	public List<Hotel> getbycity(@PathVariable("city") String city) {
-
+		log.info("findbycity hotels hotels resource - info");
+		log.warn("findbycity hotels resource - warn");
+		log.debug("findbycity hotels - debug");
 		List<Hotel> hotels = hotelRepository.findByCity(city);
 
 		return hotels;
@@ -123,7 +146,9 @@ public class HotelController {
 
 	@GetMapping(value = "/findbycountry/{country}")
 	public List<Hotel> getbycountry(@PathVariable("country") String country) {
-
+		log.info("findbycountry hotels hotels resource - info");
+		log.warn("findbycountry hotels resource - warn");
+		log.debug("findbycountry hotels - debug");
 		return hotelRepository.findByCountry(country);
 
 	}
