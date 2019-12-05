@@ -18,7 +18,7 @@ public class Review {
 	private boolean approved;
 	
 	
-	protected Review () {
+	public Review () {
 		
 	}
 	
@@ -36,6 +36,18 @@ public class Review {
 	}
 	public boolean isApproved() {
 		return approved;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public void setApproved(boolean approved) {
+		this.approved = approved;
 	}
 	
 	

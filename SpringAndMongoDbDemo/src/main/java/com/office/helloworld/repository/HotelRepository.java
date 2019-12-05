@@ -20,7 +20,8 @@ public interface HotelRepository extends MongoRepository<Hotel, String> {
 	@Query(value= "{'address.country':?0}")
 	List<Hotel> findByCountry(String country);
 	
-
+	@Query(value= "{'_id':?0}")
+	Hotel findByhotelId(String Id);
 	
 	
 }

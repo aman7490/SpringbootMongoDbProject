@@ -20,10 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.office.helloworld.dto.HotelDTO;
 import com.office.helloworld.exception.HotelNotFoundException;
 import com.office.helloworld.model.Hotel;
 import com.office.helloworld.repository.HotelRepository;
-import com.office.helloworld.service.DAOService;
+import com.office.helloworld.service.ServiceImpl;
 
 /**
  * @author amandeep.singh
@@ -38,7 +39,7 @@ public class HotelController {
 	@Autowired
 	private HotelRepository hotelRepository;
 	@Autowired
-	private DAOService daoService;
+	private ServiceImpl serviceimpl;
 
 	public HotelController(HotelRepository hotelRepository) {
 		this.hotelRepository = hotelRepository;
@@ -107,7 +108,7 @@ public class HotelController {
 	@GetMapping("getbyid/{id}")
 	public Optional<Hotel> gethotelbyid(@PathVariable("id") String id) {
 		
-		Optional<Hotel> hotel = daoService.gethotelid(id);
+		Optional<Hotel> hotel = serviceimpl.gethotelid(id);
 		
 		log.info("getbyid hotels hotels resource - info");
 		log.warn("getbyid hotels resource - warn");
@@ -122,6 +123,15 @@ public class HotelController {
 		return hotel;	
 	}
 
+	@GetMapping("getbyhotelid/{id}")
+	public HotelDTO gethoteldetailsbyid(@PathVariable("id") String id){
+		
+		
+		return (HotelDTO) serviceimpl.gethoteldetailssbyid(id);
+		
+	}
+	
+	
 	@GetMapping("getbyrate/{maxrate}")
 	public List<Hotel> getbyratepernight(@PathVariable("maxrate") Integer maxrate) {
 		

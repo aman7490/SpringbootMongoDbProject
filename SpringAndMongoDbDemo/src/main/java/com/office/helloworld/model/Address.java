@@ -7,12 +7,14 @@ import javax.validation.constraints.NotBlank;
  *
  */
 public class Address {
+	
+
 @NotBlank(message = "City cannot be blank")	
 private String city;
 @NotBlank(message = "Country cannot be blank")
 private String country;
 
-protected Address() {
+public Address() {
 	
 }
 
@@ -28,6 +30,14 @@ public String getCity() {
 
 public String getCountry() {
 	return country;
+}
+
+public void setCity(String city) {
+	this.city = city;
+}
+
+public void setCountry(String country) {
+	this.country = country;
 }
 
 }
