@@ -1,0 +1,226 @@
+2019-12-10 12:56:07,733 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9680 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 12:56:07,740 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 12:56:07,742 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 12:56:12,433 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.325 seconds (JVM running for 6.372)
+2019-12-10 12:57:43,230 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9896 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 12:57:43,232 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 12:57:43,234 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 12:57:48,027 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.432 seconds (JVM running for 6.462)
+2019-12-10 13:10:44,798 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9692 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:10:44,801 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:10:44,803 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:10:49,741 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.716 seconds (JVM running for 6.797)
+2019-12-10 13:12:28,041 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9612 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:12:28,044 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:12:28,045 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:12:33,851 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 6.57 seconds (JVM running for 8.233)
+2019-12-10 13:13:13,540 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11720 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:13:13,543 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:13:13,619 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:13:25,145 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 13.168 seconds (JVM running for 14.71)
+2019-12-10 13:14:02,157 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10288 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:14:02,160 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:14:02,164 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:14:13,156 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 13.706 seconds (JVM running for 15.273)
+2019-12-10 13:14:17,038 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10712 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:14:17,045 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:14:17,065 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:15:57,299 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11288 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:15:57,303 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:15:57,326 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:16:08,229 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 12.395 seconds (JVM running for 14.077)
+2019-12-10 13:19:26,926 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 1320 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 13:19:26,932 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 13:19:26,935 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 13:19:37,813 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 12.613 seconds (JVM running for 14.144)
+2019-12-10 15:08:59,121 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6196 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:08:59,127 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:08:59,131 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:09:09,430 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 11.945 seconds (JVM running for 13.379)
+2019-12-10 15:11:10,449 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9924 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:11:10,451 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:11:10,454 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:11:45,294 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 1888 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:11:45,300 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:11:45,302 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:13:59,720 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12668 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:13:59,723 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:13:59,725 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:14:04,685 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.581 seconds (JVM running for 6.72)
+2019-12-10 15:17:39,208 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10336 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:17:39,210 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:17:39,211 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:17:43,914 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.326 seconds (JVM running for 6.355)
+2019-12-10 15:18:38,618 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12432 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:18:38,620 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:18:38,623 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:18:43,336 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.365 seconds (JVM running for 6.503)
+2019-12-10 15:19:25,604 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 8296 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:19:25,608 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:19:25,609 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:19:29,951 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 4.963 seconds (JVM running for 6.007)
+2019-12-10 15:24:50,646 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11948 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:24:50,650 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:24:50,651 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:24:54,898 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 4.87 seconds (JVM running for 5.992)
+2019-12-10 15:25:25,481 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9612 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:25:25,485 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:25:25,486 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:25:29,762 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 4.894 seconds (JVM running for 5.942)
+2019-12-10 15:26:40,413 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] update hotels hotels resource - info
+2019-12-10 15:26:40,414 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] update hotels resource - warn
+2019-12-10 15:26:40,414 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] update hotels - debug
+2019-12-10 15:26:40,415 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::info::
+2019-12-10 15:26:40,415 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:26:40,415 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:27:04,631 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-5] handleMethodArgumentNotValid
+2019-12-10 15:27:28,046 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-9] handleMethodArgumentNotValid
+2019-12-10 15:27:40,221 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-2] handleMethodArgumentNotValid
+2019-12-10 15:27:47,557 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-1] handleMethodArgumentNotValid
+2019-12-10 15:27:56,301 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels hotels resource - info
+2019-12-10 15:27:56,302 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels resource - warn
+2019-12-10 15:27:56,303 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels - debug
+2019-12-10 15:27:56,303 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::info::
+2019-12-10 15:27:56,303 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:27:56,303 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:27:56,515 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-5]  Function handleAllExceptions
+2019-12-10 15:28:08,426 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Add hotels hotels resource - info
+2019-12-10 15:28:08,426 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Add hotels resource - warn
+2019-12-10 15:28:08,427 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Add hotels - debug
+2019-12-10 15:28:08,427 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::info::
+2019-12-10 15:28:08,427 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:28:08,428 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:28:39,134 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Add hotels hotels resource - info
+2019-12-10 15:28:39,135 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Add hotels resource - warn
+2019-12-10 15:28:39,135 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Add hotels - debug
+2019-12-10 15:28:39,136 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::info::
+2019-12-10 15:28:39,136 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:28:39,136 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:30:21,643 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9368 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 15:30:21,646 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 15:30:21,647 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 15:30:26,484 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.481 seconds (JVM running for 6.505)
+2019-12-10 15:30:40,458 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Add hotels hotels resource - info
+2019-12-10 15:30:40,460 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Add hotels resource - warn
+2019-12-10 15:30:40,460 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Add hotels - debug
+2019-12-10 15:30:40,460 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::info::
+2019-12-10 15:30:40,461 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:30:40,461 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:30:40,557 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-2]  Function handleAllExceptions
+2019-12-10 15:30:51,199 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Add hotels hotels resource - info
+2019-12-10 15:30:51,200 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Add hotels resource - warn
+2019-12-10 15:30:51,200 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Add hotels - debug
+2019-12-10 15:30:51,200 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::info::
+2019-12-10 15:30:51,200 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:30:51,201 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:30:51,209 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-4]  Function handleAllExceptions
+2019-12-10 15:31:01,559 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels hotels resource - info
+2019-12-10 15:31:01,560 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels resource - warn
+2019-12-10 15:31:01,561 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Add hotels - debug
+2019-12-10 15:31:01,561 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::info::
+2019-12-10 15:31:01,561 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:31:01,561 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:31:29,522 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::info::
+2019-12-10 15:31:29,522 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:31:29,523 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:31:29,553 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] getbyid hotels hotels resource - info
+2019-12-10 15:31:29,553 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] getbyid hotels resource - warn
+2019-12-10 15:31:29,553 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] getbyid hotels - debug
+2019-12-10 15:31:29,554 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] hotel not found and exception will occur
+2019-12-10 15:31:29,554 ERROR com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] hotel not found and exception will occur
+2019-12-10 15:31:29,554 ERROR com.office.helloworld.exception.HotelNotFoundException [http-nio-8080-exec-7] Hotel not found exception from hotel not found class
+2019-12-10 15:31:29,555 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-7] handleHotelNotFoundExceptions
+2019-12-10 15:31:36,931 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::info::
+2019-12-10 15:31:36,932 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:31:36,932 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:31:36,971 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] getbyid hotels hotels resource - info
+2019-12-10 15:31:36,972 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] getbyid hotels resource - warn
+2019-12-10 15:31:36,972 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] getbyid hotels - debug
+2019-12-10 15:31:36,972 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] hotel not found and exception will occur
+2019-12-10 15:31:36,973 ERROR com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] hotel not found and exception will occur
+2019-12-10 15:31:36,973 ERROR com.office.helloworld.exception.HotelNotFoundException [http-nio-8080-exec-8] Hotel not found exception from hotel not found class
+2019-12-10 15:31:36,973 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-8] handleHotelNotFoundExceptions
+2019-12-10 15:31:42,210 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyrate hotels hotels resource - info
+2019-12-10 15:31:42,211 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyrate hotels resource - warn
+2019-12-10 15:31:42,211 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyrate hotels - debug
+2019-12-10 15:31:42,211 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::info::
+2019-12-10 15:31:42,212 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:31:42,212 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:32:02,963 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyrate hotels hotels resource - info
+2019-12-10 15:32:02,964 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyrate hotels resource - warn
+2019-12-10 15:32:02,964 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyrate hotels - debug
+2019-12-10 15:32:02,964 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::info::
+2019-12-10 15:32:02,965 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:32:02,966 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:32:06,737 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] getbyrate hotels hotels resource - info
+2019-12-10 15:32:06,737 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] getbyrate hotels resource - warn
+2019-12-10 15:32:06,737 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] getbyrate hotels - debug
+2019-12-10 15:32:06,738 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::info::
+2019-12-10 15:32:06,738 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:32:06,738 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:32:08,154 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] getbyrate hotels hotels resource - info
+2019-12-10 15:32:08,154 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] getbyrate hotels resource - warn
+2019-12-10 15:32:08,155 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] getbyrate hotels - debug
+2019-12-10 15:32:08,155 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::info::
+2019-12-10 15:32:08,155 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:32:08,155 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:32:11,668 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] getbyrate hotels hotels resource - info
+2019-12-10 15:32:11,673 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] getbyrate hotels resource - warn
+2019-12-10 15:32:11,673 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] getbyrate hotels - debug
+2019-12-10 15:32:11,673 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get hotel by Id Service layer :::::info::
+2019-12-10 15:32:11,674 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:32:11,674 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:05,191 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] findbycountry hotels hotels resource - info
+2019-12-10 15:33:05,192 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] findbycountry hotels resource - warn
+2019-12-10 15:33:05,192 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] findbycountry hotels - debug
+2019-12-10 15:33:05,192 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:05,192 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:05,193 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:06,687 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] findbycountry hotels hotels resource - info
+2019-12-10 15:33:06,687 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] findbycountry hotels resource - warn
+2019-12-10 15:33:06,688 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] findbycountry hotels - debug
+2019-12-10 15:33:06,688 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:06,689 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:06,689 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:12,270 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-10 15:33:12,270 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-10 15:33:12,270 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:12,271 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:12,271 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:27,676 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] findbycountry hotels hotels resource - info
+2019-12-10 15:33:27,676 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] findbycountry hotels resource - warn
+2019-12-10 15:33:27,677 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] findbycountry hotels - debug
+2019-12-10 15:33:27,677 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:27,677 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:27,678 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:42,155 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyid2 hotels hotels resource - info
+2019-12-10 15:33:42,155 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyid2 hotels resource - warn
+2019-12-10 15:33:42,156 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] getbyid2 hotels - debug
+2019-12-10 15:33:42,156 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:42,156 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:42,156 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get hotel by Id Service layer :::::debug::
+2019-12-10 15:33:42,163 ERROR com.office.helloworld.exception.HotelNotFoundException [http-nio-8080-exec-9] Hotel not found exception from hotel not found class
+2019-12-10 15:33:42,164 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8080-exec-9] handleHotelNotFoundExceptions
+2019-12-10 15:33:51,533 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyid2 hotels hotels resource - info
+2019-12-10 15:33:51,533 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyid2 hotels resource - warn
+2019-12-10 15:33:51,534 DEBUG com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyid2 hotels - debug
+2019-12-10 15:33:51,534 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::info::
+2019-12-10 15:33:51,534 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::warn::
+2019-12-10 15:33:51,534 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel by Id Service layer :::::debug::
+2019-12-10 18:04:13,984 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10852 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 18:04:13,986 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-10 18:04:13,988 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 18:04:19,329 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 6.088 seconds (JVM running for 7.22)
+2019-12-10 18:04:20,308 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-10 18:04:20,309 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-10 18:04:20,309 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::info::
+2019-12-10 18:04:20,310 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::warn::
+2019-12-10 18:04:20,310 DEBUG com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel by Id Service layer :::::debug::
+2019-12-10 20:37:36,126 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9644 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 20:37:36,129 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 20:37:40,465 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.048 seconds (JVM running for 6.138)
+2019-12-10 20:52:14,416 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 7880 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 20:52:14,418 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 20:52:26,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11876 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-10 20:52:26,674 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-10 20:52:31,116 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.095 seconds (JVM running for 6.164)
