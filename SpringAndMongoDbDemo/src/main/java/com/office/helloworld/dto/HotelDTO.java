@@ -3,12 +3,6 @@ package com.office.helloworld.dto;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import javax.validation.Valid;
-import javax.validation.constraints.Size;
-
-import org.springframework.data.mongodb.core.index.IndexDirection;
-import org.springframework.data.mongodb.core.index.Indexed;
-
 import com.office.helloworld.model.Address;
 import com.office.helloworld.model.Review;
 
@@ -18,7 +12,7 @@ public class HotelDTO {
 	
 	private String name;
 		
-	private int pricePerNight; 
+	private Integer pricePerNight; 
 	
 	private Address address;
 	
@@ -38,10 +32,10 @@ public class HotelDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPricePerNight() {
+	public Integer getPricePerNight() {
 		return pricePerNight;
 	}
-	public void setPricePerNight(int pricePerNight) {
+	public void setPricePerNight(Integer pricePerNight) {
 		this.pricePerNight = pricePerNight;
 	}
 	public Address getAddress() {
@@ -74,8 +68,8 @@ public class HotelDTO {
 	}
 	
 	
-	public HotelDTO(String id, String name, int pricePerNight, Address address, List<Review> reviews,
-			Integer ratepernight, LocalDateTime datetime) {
+	public HotelDTO(String id, String name, Integer pricePerNight, Address address, List<Review> reviews,
+			Integer ratepernight) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -83,7 +77,7 @@ public class HotelDTO {
 		this.address = address;
 		this.reviews = reviews;
 		this.ratepernight = ratepernight;
-		this.datetime = datetime;
+	//	this.datetime = datetime;
 	}
 	
 	

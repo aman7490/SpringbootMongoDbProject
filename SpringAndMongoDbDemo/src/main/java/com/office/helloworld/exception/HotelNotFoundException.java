@@ -17,7 +17,7 @@ public class HotelNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 	public HotelNotFoundException(String message) {
 		super(message);
-		log.error("Hotel not found exception");
+		log.error("Hotel not found exception from hotel not found class");
 		// TODO Auto-generated constructor stub
 	}
 

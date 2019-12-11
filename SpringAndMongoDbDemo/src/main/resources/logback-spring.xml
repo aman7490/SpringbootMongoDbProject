@@ -16,28 +16,6 @@
 
 	<appender name="RollingFile"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${LOGS}/spring-boot-logger.log</file>
-		<encoder
-			class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-			<Pattern> %d %p %C{1.} [%t] %m%n</Pattern>
-		</encoder>
-
-		<rollingPolicy
-			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<!-- rollover daily when file reaches 10 mb -->
-			<fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log
-			</fileNamePattern>
-			<timeBasedFileNamingAndTriggeringPolicy
-				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-				<maxFileSize>10MB</maxFileSize>
-			</timeBasedFileNamingAndTriggeringPolicy>
-
-		</rollingPolicy>
-
-	</appender>
-	
-	<appender name="RollingFile"
-		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<file>${LOGS}/spring-boot-OnlyWarn-logger.log</file>
 			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>WARN</level>
@@ -60,16 +38,39 @@
 		</rollingPolicy>
 
 	</appender>
-	
-	
+
+
+  	<appender name="RollingFile"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS}/spring-boot-logger.log</file>
+		<encoder
+			class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern> %d %p %C{1.} [%t] %m%n</Pattern>
+		</encoder>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily when file reaches 10 mb -->
+			<fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+
+		</rollingPolicy>
+
+	</appender>  
 	
 	<!-- LOG everything at INFO level -->
-	<root level="TRACE">
+<!-- <root level="trace"> -->	
+<root level="INFO"> 
 		<appender-ref ref="Console" />
 	</root>
 
 	<!-- LOG "com.office.helloworld.*" at TRACE level -->
-	<logger name="com.office.helloworld" level="trace"
+	<!--  <logger name="com.office.helloworld" level="trace"  -->
+	<logger name="com.office.helloworld" level="INFO"
 		additivity="false">
 		<appender-ref ref="RollingFile" />
 		<appender-ref ref="Console" />

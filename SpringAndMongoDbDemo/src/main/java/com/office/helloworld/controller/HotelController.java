@@ -1,5 +1,7 @@
 package com.office.helloworld.controller;
 
+import static org.hamcrest.CoreMatchers.anything;
+
 import java.net.URI;
 import java.util.List;
 import java.util.Optional;
@@ -37,52 +39,44 @@ public class HotelController {
 	Logger log = LoggerFactory.getLogger(HotelController.class);
 	
 	@Autowired
-	private HotelRepository hotelRepository;
-	@Autowired
 	private ServiceImpl serviceimpl;
 
-	public HotelController(HotelRepository hotelRepository) {
-		this.hotelRepository = hotelRepository;
+/*	they both were creating problem while mock testing 
+ * public HotelController() {
+		
 	}
+	public HotelController(HotelRepository hotelRepository) {
+	}
+	*/
 
 	@GetMapping("/all")
 	public List<Hotel> getallhotels(Hotel hotel) {
 		log.info("Fetching all hotels resource");
 		log.warn("Fetching all hotels resource");
-		List<Hotel> hotels = this.hotelRepository.findAll();
+		List<Hotel> hotels = serviceimpl.getallhoteldetails();
 		return hotels;
 	}
 
-	/*
-	 * public List<Hotel> getallhotels(Hotel hotel){
-	 * 
-	 * List<Hotel> hotels = hotelRepository.findAll();
-	 * 
-	 * for (Hotel hotel2 : hotels) {
-	 * 
-	 * }
-	 * 
-	 * return hotels;
-	 * 
-	 * }
-	 */
+	
 
 	@PostMapping("/add")
-	public ResponseEntity<Object> addhotel(@Valid @RequestBody Hotel hotel) {
+	public Hotel addhotel(@Valid @RequestBody Hotel hotel) {
 		
 		log.info("Add hotels hotels resource - info");
 		log.warn("Add hotels resource - warn");
 		log.debug("Add hotels - debug");
-		hotelRepository.insert(hotel);
+		Hotel hotels = serviceimpl.addhoteldetails(hotel);
+		// hotelRepository.insert(hotel);
 		
 		// this below location value will appear in response header with the location, where the records have been saved with their id.
-		URI location = ServletUriComponentsBuilder
+	/*	URI location = ServletUriComponentsBuilder
 				.fromCurrentRequest()
 				.path("/{id}")
 				.buildAndExpand(hotel.getId())
 				.toUri();
+		return ResponseEntity.created(location).build(); */
+		return hotels;
 		
-		return ResponseEntity.created(location).build();
 	}
 
 	@PutMapping("/update/{id}")
@@ -90,7 +84,8 @@ public class HotelController {
 		log.info("update hotels hotels resource - info");
 		log.warn("update hotels resource - warn");
 		log.debug("update hotels - debug");
-		hotelRepository.save(hotel);
+		serviceimpl.updatehoteldetails(hotel, id);
+		//hotelRepository.save(hotel);
 
 	}
 
@@ -101,10 +96,11 @@ public class HotelController {
 		log.warn("delete hotels resource - warn");
 		log.debug("delete hotels - debug");
 		
-		hotelRepository.deleteById(id);
+		serviceimpl.deletehoteldetails(id);
+	//	hotelRepository.deleteById(id);
 
 	}
-
+  // this method have no use coz here we are using optional, so created new one with same func.
 	@GetMapping("getbyid/{id}")
 	public Optional<Hotel> gethotelbyid(@PathVariable("id") String id) {
 		
@@ -125,11 +121,14 @@ public class HotelController {
 
 	@GetMapping("getbyhotelid/{id}")
 	public HotelDTO gethoteldetailsbyid(@PathVariable("id") String id){
-		
+		log.info("getbyid2 hotels hotels resource - info");
+		log.warn("getbyid2 hotels resource - warn");
+		log.debug("getbyid2 hotels - debug");
 		
 		return (HotelDTO) serviceimpl.gethoteldetailssbyid(id);
 		
 	}
+	
 	
 	
 	@GetMapping("getbyrate/{maxrate}")
@@ -138,8 +137,8 @@ public class HotelController {
 		log.info("getbyrate hotels hotels resource - info");
 		log.warn("getbyrate hotels resource - warn");
 		log.debug("getbyrate hotels - debug");
-		
-		List<Hotel> hotels = hotelRepository.findByratepernightLessThan(maxrate);
+		List<Hotel> hotels = serviceimpl.getbyratedetails(maxrate);
+	//	List<Hotel> hotels = hotelRepository.findByratepernightLessThan(maxrate);
 		return hotels;
 
 	}
@@ -149,7 +148,8 @@ public class HotelController {
 		log.info("findbycity hotels hotels resource - info");
 		log.warn("findbycity hotels resource - warn");
 		log.debug("findbycity hotels - debug");
-		List<Hotel> hotels = hotelRepository.findByCity(city);
+		List<Hotel> hotels = serviceimpl.findbycitydetails(city);
+	//	List<Hotel> hotels = hotelRepository.findByCity(city);
 
 		return hotels;
 	}
@@ -159,7 +159,10 @@ public class HotelController {
 		log.info("findbycountry hotels hotels resource - info");
 		log.warn("findbycountry hotels resource - warn");
 		log.debug("findbycountry hotels - debug");
-		return hotelRepository.findByCountry(country);
+		
+		return serviceimpl.findbycountrydetails(country);
+		
+		//return hotelRepository.findByCountry(country);
 
 	}
 

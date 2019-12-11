@@ -23,8 +23,8 @@ public class Hotel {
 	private String id;
 	@Size(min=2, message="Name should have atleast two characters")
 	private String name;
-//	@Indexed(direction = IndexDirection.ASCENDING)	
-	private int pricePerNight; 
+	@Indexed(direction = IndexDirection.ASCENDING)	
+	private Integer pricePerNight; 
 	@Valid
 	private Address address;
 	@Valid
@@ -37,8 +37,9 @@ public class Hotel {
 		this.reviews = new ArrayList<>();
 	}
 	
-	public Hotel(String name, int pricePerNight, Address address, List<Review> reviews, Integer ratepernight ) {
+	public Hotel(String id, String name, Integer pricePerNight, Address address, List<Review> reviews, Integer ratepernight ) {
 	
+		this.id=id;
 		this.name = name;
 		this.pricePerNight = pricePerNight;
 		this.address = address;
@@ -72,7 +73,7 @@ public class Hotel {
 		this.name = name;
 	}
 
-	public void setPricePerNight(int pricePerNight) {
+	public void setPricePerNight(Integer pricePerNight) {
 		this.pricePerNight = pricePerNight;
 	} 
 
@@ -86,6 +87,10 @@ public class Hotel {
 
 	public Integer getRatepernight() {
 		return ratepernight;
+	}
+
+	public Integer getPricePerNight() {
+		return pricePerNight;
 	}
 
 	public LocalDateTime getDatetime() {
