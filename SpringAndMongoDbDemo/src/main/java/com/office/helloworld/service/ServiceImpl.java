@@ -95,7 +95,6 @@ public class ServiceImpl {
 		if(hotels==null) {
 			throw new HotelNotFoundException("No hotels found with this rate !");
 		}
-		
 		return hotels;
 	}
 	

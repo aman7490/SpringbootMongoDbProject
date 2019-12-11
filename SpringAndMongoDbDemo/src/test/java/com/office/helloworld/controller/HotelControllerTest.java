@@ -13,9 +13,11 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.beans.BeanUtils;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import com.office.helloworld.dto.HotelDTO;
 import com.office.helloworld.model.Address;
 import com.office.helloworld.model.Hotel;
 import com.office.helloworld.model.Review;
@@ -23,11 +25,6 @@ import com.office.helloworld.service.ServiceImpl;
 
 class HotelControllerTest {
 
-	//Common issue (null pointer exception) while Injecting mocks in controller class,
-	//it was instantiating controller object and coz of default constructor it was not able to 
-	// mocking the object. (now i have commented the unused constructor from controller class)
-
-	
 	//	private MockMvc mockMvc;
 	
 	@InjectMocks
@@ -37,7 +34,7 @@ class HotelControllerTest {
 	ServiceImpl service;
 
 	Hotel hotel;
-	
+	HotelDTO hoteldto;
 	@BeforeEach
 	void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this);
@@ -49,6 +46,8 @@ class HotelControllerTest {
 		Review review2 = new Review("MockUser2", 7, true);
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		hotel = new Hotel("Mockid","Mockname", 7, address, reviewlist, 12);
+		hoteldto = new HotelDTO("Mockid","Mockname", 7, address, reviewlist, 12);
+	//	BeanUtils.copyProperties(hotel, hoteldto);
 		
 	}
 
@@ -89,7 +88,28 @@ class HotelControllerTest {
 		assertEquals(hotel.getReviews().get(0).getRating(), hotel1.getReviews().get(0).getRating());		
 	}
 	
+	@Test
+	final void updatehotel() {
+		when(service.updatehoteldetails(any(Hotel.class), anyString())).thenReturn(hotel);
+		
+		Hotel hotel1 = hotelcontroller.updatehotel(hotel, "Mockid");
+		
+		assertNotNull(hotel1);
+		assertEquals(hotel.getId(), hotel1.getId());
+		
+		
+	}
 	
+	@Test
+	final void gethoteldetailsbyid() {
+		
+		when(service.gethoteldetailssbyid(anyString())).thenReturn(hoteldto);
+		HotelDTO hotel1 = hotelcontroller.gethoteldetailsbyid(anyString());
+		
+		assertNotNull(hotel1);
+		assertEquals(hoteldto.getId(), hotel1.getId());
+		
+	}
 	
 	
 

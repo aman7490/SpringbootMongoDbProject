@@ -1,17 +1,11 @@
 package com.office.helloworld.controller;
 
-import static org.hamcrest.CoreMatchers.anything;
-
-import java.net.URI;
 import java.util.List;
 import java.util.Optional;
-
 import javax.validation.Valid;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,12 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.office.helloworld.dto.HotelDTO;
 import com.office.helloworld.exception.HotelNotFoundException;
 import com.office.helloworld.model.Hotel;
-import com.office.helloworld.repository.HotelRepository;
 import com.office.helloworld.service.ServiceImpl;
 
 /**
@@ -80,11 +72,11 @@ public class HotelController {
 	}
 
 	@PutMapping("/update/{id}")
-	public void updatehotel(@RequestBody Hotel hotel, @PathVariable("id") String id) {
+	public Hotel updatehotel(@RequestBody Hotel hotel, @PathVariable("id") String id) {
 		log.info("update hotels hotels resource - info");
 		log.warn("update hotels resource - warn");
 		log.debug("update hotels - debug");
-		serviceimpl.updatehoteldetails(hotel, id);
+		return serviceimpl.updatehoteldetails(hotel, id);
 		//hotelRepository.save(hotel);
 
 	}
