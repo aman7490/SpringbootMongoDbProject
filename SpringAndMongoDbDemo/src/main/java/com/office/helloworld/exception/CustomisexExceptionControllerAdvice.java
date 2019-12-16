@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.office.helloworld.controller.HotelController;
-
 /**
  * @author amandeep.singh
  *
@@ -31,7 +29,7 @@ public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest
 	log.error(" Function handleAllExceptions");
 	ExceptionStructure exceptionStructure = new ExceptionStructure(new Date(), ex.getMessage(), request.getDescription(false));
 	
-	return new ResponseEntity<Object>(exceptionStructure, HttpStatus.INTERNAL_SERVER_ERROR);
+	return new ResponseEntity<>(exceptionStructure, HttpStatus.INTERNAL_SERVER_ERROR);
 	
 }
 // this is for if hotel not found
@@ -40,7 +38,7 @@ public final ResponseEntity<Object> handleHotelNotFoundExceptions(HotelNotFoundE
 	log.error("handleHotelNotFoundExceptions");
 	ExceptionStructure exceptionStructure = new ExceptionStructure(new Date(), ex.getMessage(), request.getDescription(false));
 	
-	return new ResponseEntity<Object>(exceptionStructure, HttpStatus.NOT_FOUND);
+	return new ResponseEntity<>(exceptionStructure, HttpStatus.NOT_FOUND);
 	
 }
 /**
@@ -52,7 +50,7 @@ protected ResponseEntity<Object> handleMethodArgumentNotValid(
 		MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
 	log.error("handleMethodArgumentNotValid");
 	ExceptionStructure exceptionStructure = new ExceptionStructure(new Date(), "Validatio Error",ex.getBindingResult().toString());
-	return new ResponseEntity<Object>(exceptionStructure, HttpStatus.BAD_REQUEST);
+	return new ResponseEntity<>(exceptionStructure, HttpStatus.BAD_REQUEST);
 }
 
 

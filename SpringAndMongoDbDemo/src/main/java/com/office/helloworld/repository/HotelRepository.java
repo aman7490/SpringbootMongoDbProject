@@ -6,12 +6,15 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import com.office.helloworld.dto.HotelDTO;
 import com.office.helloworld.model.Hotel;
 
 @Repository
 public interface HotelRepository extends MongoRepository<Hotel, String> {
 
 	List<Hotel> findByratepernightLessThan(Integer max);
+	
+	Hotel save(HotelDTO hotel);
 	
 	@Query(value= "{'address.city':?0}")
 	List<Hotel> findByCity(String city);
@@ -20,7 +23,10 @@ public interface HotelRepository extends MongoRepository<Hotel, String> {
 	List<Hotel> findByCountry(String country);
 	
 	@Query(value= "{'_id':?0}")
-	Hotel findByhotelId(String Id);
+	Hotel findByhotelId(String id);
+
+	
+	
 	
 	
 }

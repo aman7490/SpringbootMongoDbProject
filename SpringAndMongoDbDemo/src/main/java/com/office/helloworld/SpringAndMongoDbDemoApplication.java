@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author amandeep.singh
  *
  */
-@SpringBootApplication   // combination of @configuration + @component scan + @Enable autoconfiguration annotations.
+//combination of @configuration + @component scan + @Enable autoconfiguration annotations.
+@SpringBootApplication   
 public class SpringAndMongoDbDemoApplication {
 
 	public static void main(String[] args) {

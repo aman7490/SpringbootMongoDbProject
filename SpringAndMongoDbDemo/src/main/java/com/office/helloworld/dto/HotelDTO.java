@@ -63,7 +63,7 @@ public class HotelDTO {
 		this.datetime = datetime;
 	}
 	
-	public HotelDTO() {
+/*	public HotelDTO() {
 		
 	}
 	
@@ -77,7 +77,7 @@ public class HotelDTO {
 		this.address = address;
 		this.reviews = reviews;
 		this.ratepernight = ratepernight;
-	//	this.datetime = datetime;
+
 	}
 	
 	
@@ -88,6 +88,6 @@ public class HotelDTO {
 	}
 	
 	
-	
+	*/
 	
 }

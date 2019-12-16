@@ -23,12 +23,12 @@ public class ServiceImpl {
 	HotelRepository hotelRepository;
 	
 	public List<Hotel> getallhoteldetails(){
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("Get allhotel Service layer :::::info::");
+		log.warn("Get allhotel Service layer :::::warn::");
+		log.debug("Get allhotel Service layer :::::debug::");
 		List<Hotel> hotels = this.hotelRepository.findAll();
 		
-		if(hotels == null) {
+		if(hotels.isEmpty()) {
 			throw new HotelNotFoundException("There is no hotel in our records !");
 		//	throw new NullPointerException(id);  // using this for Junit test case.
 		}
@@ -38,59 +38,59 @@ public class ServiceImpl {
 	
 		
 	public Optional<Hotel> gethotelid(String id) {
-		// TODO Auto-generated method stub
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		
+		log.info("Get hotel Id Service layer :::::info::");
+		log.warn("Get hotel Id Service layer :::::warn::");
+		log.debug("Get hotel Id Service layer :::::debug::");
 		return hotelRepository.findById(id);
 	}
 	
-	public HotelDTO gethoteldetailssbyid(String id){
+	public Hotel gethoteldetailssbyid(String id){
 		
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("Get hoteldetails by id Service layer :::::info::");
+		log.warn("Get hoteldetailswarn by Id Service layer :::::warn::");
+		log.debug("Get hoteldetails Iddebug Service layer :::::debug::");
 		
-		System.out.println("Value of id "+id);
+	
 		Hotel hotel = hotelRepository.findByhotelId(id);
 		if(hotel == null) {
 			throw new HotelNotFoundException("Hotel not Found, Hotel Id:::"+id);
 		//	throw new NullPointerException(id);  // using this for Junit test case.
 		}
-		System.out.println("check");
-		HotelDTO hoteldto = new HotelDTO();
-		BeanUtils.copyProperties(hotel, hoteldto);
-		return hoteldto;
+		
+
+		return hotel;
 	}
 	
 	public Hotel addhoteldetails(Hotel hotel) {
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
-	 //   Hotel hoteldetail = hotelRepository.save(hotel);
-	    Hotel hoteldetail = hotelRepository.insert(hotel);
-		return hoteldetail;	
+		log.info("Get aadhotel info Service layer :::::info::");
+		log.warn("Get addhotel warn Service layer :::::warn::");
+		log.debug("Get addhotels debug Service layer :::::debug::");
+		
+
+
+		return hotelRepository.insert(hotel);	
 	}
 	
-	public Hotel updatehoteldetails(Hotel hotel, String id) {
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
-		Hotel updatehotel = hotelRepository.save(hotel);
-		return updatehotel;
+	public Hotel updatehoteldetails(Hotel hotel) {
+		log.info("Get updatehotel Service layer :::::info::"); 
+		log.warn("Get updatehotels Service layer :::::warn::");
+		log.debug("Get updatehotelss Service layer :::::debug::");
+
+		return hotelRepository.save(hotel);
 	}
 	
 	public void deletehoteldetails(String id) {
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("Get Delete hotel Service layer1 :::::info::");
+		log.warn("Get Delete hotel Service layer2:::::warn::");
+		log.debug("Get Delete hotel Service layer3 :::::debug::");
 		hotelRepository.deleteById(id);
 	}
 	
 	public List<Hotel> getbyratedetails(int maxrate){
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("Get hotel by ratedetails Service layer :::::info::"); 
+		log.warn("Get hotel by ratedetails warn layer :::::warn::"); 
+		log.debug("Get hotel by ratedetails debug layer :::::debug::");  
 		List<Hotel> hotels = hotelRepository.findByratepernightLessThan(maxrate);
 		if(hotels==null) {
 			throw new HotelNotFoundException("No hotels found with this rate !");
@@ -99,9 +99,9 @@ public class ServiceImpl {
 	}
 	
 	public List<Hotel> findbycitydetails(String city){
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("find hotel info by Id Service layer :::::info::");
+		log.warn("find hotel warn by Id Service layer :::::warn::");
+		log.debug("find hotel debug by Id Service layer :::::debug::");
 		List<Hotel> hotels = hotelRepository.findByCity(city);
 		
 		if(hotels==null) {
@@ -111,9 +111,9 @@ public class ServiceImpl {
 	}
 	
 	public List<Hotel> findbycountrydetails(String country){
-		log.info("Get hotel by Id Service layer :::::info::");
-		log.warn("Get hotel by Id Service layer :::::warn::");
-		log.debug("Get hotel by Id Service layer :::::debug::");
+		log.info("Get hotel country info Service layer :::::info::");
+		log.warn("Get hotel country warn Service layer :::::warn::");
+		log.debug("Get hotel country debug Service layer :::::debug::");
 		List<Hotel> hotels =hotelRepository.findByCountry(country);
 		if(hotels==null) {
 			throw new HotelNotFoundException("There is no hotel for this city:: !"+country);

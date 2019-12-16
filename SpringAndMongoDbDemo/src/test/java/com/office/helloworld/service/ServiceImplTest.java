@@ -20,6 +20,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.beans.BeanUtils;
 
 import com.office.helloworld.dto.HotelDTO;
 import com.office.helloworld.exception.HotelNotFoundException;
@@ -38,10 +39,19 @@ class ServiceImplTest {
 	@Mock
 	HotelRepository hotelRepository;
 	
+	Hotel hotel;
+	HotelDTO hoteldto;
+	
 	@BeforeEach
 	void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this); 
 		/* this will instantiate the serviceimpl object. */
+		Address address = new Address("Mockcity", "MockCountry");
+		Review review =  new Review("Mockuser", 7, true); 
+		Review review2 = new Review("MockUser2", 7, true);
+		List<Review> reviewlist = Arrays.asList(review,review2);
+//		hoteldto = new HotelDTO("Mockid1","Mockname", 7, address, reviewlist, 12);
+		
 	}
 
 	@Test
@@ -52,9 +62,9 @@ class ServiceImplTest {
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		Hotel hotel = new Hotel("Mockid","Mockname", 7, address, reviewlist, 12);	
 		when(hotelRepository.findByhotelId(anyString())).thenReturn(hotel);
-		HotelDTO hoteldto= serviceimpl.gethoteldetailssbyid("Mockid");
-		assertNotNull(hoteldto);
-		assertEquals("Mockid", hoteldto.getId());
+		Hotel hotel1= serviceimpl.gethoteldetailssbyid("Mockid");
+		assertNotNull(hotel1);
+		assertEquals("Mockid", hotel1.getId());
 		
  	}
 	
@@ -79,7 +89,11 @@ class ServiceImplTest {
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		Hotel hotel1 = new Hotel("Mockid1","Mockname", 7, address, reviewlist, 12);
 		Hotel hotel2 = new Hotel("Mockid2","Mockname", 7, address, reviewlist, 12);
+		//HotelDTO hoteldto1 = new HotelDTO("Mockid1","Mockname", 7, address, reviewlist, 12);
+		//HotelDTO hoteldto2 = new HotelDTO("Mockid1","Mockname", 7, address, reviewlist, 12);
+		//List<HotelDTO> hoteldtos = Arrays.asList(hoteldto1,hoteldto2);
 		List<Hotel> hotels = Arrays.asList(hotel1,hotel2);
+		
 		when(hotelRepository.findAll()).thenReturn(hotels);	
 		List<Hotel> hotelss = serviceimpl.getallhoteldetails();
 		assertNotNull(hotelss);
@@ -180,6 +194,7 @@ class ServiceImplTest {
 		Review review2 = new Review("MockUser2", 7, true);
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		Hotel hotel = new Hotel("createMockid","Mockname", 7, address, reviewlist, 12);
+		//Hotel hoteldto = new HotelDTO("createMockid","Mockname", 7, address, reviewlist, 12);
 		when(hotelRepository.insert(any(Hotel.class))).thenReturn(hotel);
 		
 		Hotel hoteldetails = serviceimpl.addhoteldetails(hotel);
@@ -195,14 +210,10 @@ class ServiceImplTest {
 	
 	@Test
 	final void updatehoteldetails() {
-		Address address = new Address("Mockcity", "MockCountry");
-		Review review =  new Review("Mockuser", 7, true); 
-		Review review2 = new Review("MockUser2", 7, true);
-		List<Review> reviewlist = Arrays.asList(review,review2);
-		Hotel hotel = new Hotel("updateMockid","Mockname", 7, address, reviewlist, 12);
+		
 		
 		when(hotelRepository.save(any(Hotel.class))).thenReturn(hotel);
-		Hotel hoteldetail = serviceimpl.updatehoteldetails(hotel, anyString());
+		Hotel hoteldetail = serviceimpl.updatehoteldetails(hotel);
 		assertNotNull(hoteldetail);
 		assertEquals("updateMockid", hoteldetail.getId());
 		
@@ -216,6 +227,7 @@ class ServiceImplTest {
 		Review review2 = new Review("MockUser2", 7, true);
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		Hotel hotel = new Hotel("updateMockid","Mockname", 7, address, reviewlist, 12);
+		//HotelDTO hotedto= new HotelDTO("updateMockid","Mockname", 7, address, reviewlist, 12);
 		hotelRepository.delete(hotel);
 		
 		serviceimpl.deletehoteldetails(anyString());

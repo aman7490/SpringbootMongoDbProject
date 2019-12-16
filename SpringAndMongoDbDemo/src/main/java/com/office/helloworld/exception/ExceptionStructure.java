@@ -8,28 +8,28 @@ import java.util.Date;
  */
 public class ExceptionStructure {
 
-	private Date Timestamp;
-	private String ErrorMessage;
-	private String ErrorDetails;
+	private Date timestamp;
+	private String errorMessage;
+	private String errorDetails;
 	
 	
 	
-	public ExceptionStructure(Date Timestamp, String ErrorMessage, String ErrorDetails) {
+	public ExceptionStructure(Date timestamp, String errorMessage, String errorDetails) {
 		super();
-		this.Timestamp = Timestamp;
-		this.ErrorMessage = ErrorMessage;
-		this.ErrorDetails = ErrorDetails;
+		this.timestamp = timestamp;
+		this.errorMessage = errorMessage;
+		this.errorDetails = errorDetails;
 	}
 
 	public Date getTimestamp() {
-		return Timestamp;
+		return timestamp;
 	}
 	
 	public String getErrorMessage() {
-		return ErrorMessage;
+		return errorMessage;
 	}
 	public String getErrorDetails() {
-		return ErrorDetails;
+		return errorDetails;
 	}
 
 	

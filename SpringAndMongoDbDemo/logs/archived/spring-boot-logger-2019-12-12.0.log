@@ -1,0 +1,32 @@
+2019-12-12 12:16:08,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplicationTests on Vlap1124 with PID 8924 (started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-12 12:16:08,487 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-12 12:16:25,148 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplicationTests on Vlap1124 with PID 9768 (started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-12 12:16:25,154 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-12 12:16:26,825 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplicationTests in 20.256 seconds (JVM running for 24.152)
+2019-12-12 12:16:32,209 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplicationTests in 8.67 seconds (JVM running for 11.435)
+2019-12-12 13:07:17,708 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplicationTests on Vlap1124 with PID 10304 (started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-12 13:07:17,710 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-12 13:07:25,468 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplicationTests in 9.184 seconds (JVM running for 21.32)
+2019-12-12 13:07:25,654 INFO com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-12 13:07:25,655 WARN com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-12 13:07:25,662 INFO com.office.helloworld.controller.HotelController [main] getbyid2 hotels hotels resource - info
+2019-12-12 13:07:25,662 WARN com.office.helloworld.controller.HotelController [main] getbyid2 hotels resource - warn
+2019-12-12 13:07:25,666 INFO com.office.helloworld.controller.HotelController [main] Add hotels hotels resource - info
+2019-12-12 13:07:25,667 WARN com.office.helloworld.controller.HotelController [main] Add hotels resource - warn
+2019-12-12 13:07:25,672 INFO com.office.helloworld.controller.HotelController [main] update hotels hotels resource - info
+2019-12-12 13:07:25,673 WARN com.office.helloworld.controller.HotelController [main] update hotels resource - warn
+2019-12-12 13:07:25,678 INFO com.office.helloworld.controller.HotelController [main] findbycity hotels hotels resource - info
+2019-12-12 13:07:25,678 WARN com.office.helloworld.controller.HotelController [main] findbycity hotels resource - warn
+2019-12-12 15:47:53,608 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplicationTests on Vlap1124 with PID 11708 (started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-12 15:47:53,612 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-12 15:48:11,372 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplicationTests in 18.95 seconds (JVM running for 26.576)
+2019-12-12 15:48:11,634 INFO com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-12 15:48:11,635 WARN com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-12 15:48:11,643 INFO com.office.helloworld.controller.HotelController [main] getbyid2 hotels hotels resource - info
+2019-12-12 15:48:11,643 WARN com.office.helloworld.controller.HotelController [main] getbyid2 hotels resource - warn
+2019-12-12 15:48:11,652 INFO com.office.helloworld.controller.HotelController [main] Add hotels hotels resource - info
+2019-12-12 15:48:11,653 WARN com.office.helloworld.controller.HotelController [main] Add hotels resource - warn
+2019-12-12 15:48:11,658 INFO com.office.helloworld.controller.HotelController [main] update hotels hotels resource - info
+2019-12-12 15:48:11,659 WARN com.office.helloworld.controller.HotelController [main] update hotels resource - warn
+2019-12-12 15:48:11,665 INFO com.office.helloworld.controller.HotelController [main] findbycity hotels hotels resource - info
+2019-12-12 15:48:11,665 WARN com.office.helloworld.controller.HotelController [main] findbycity hotels resource - warn

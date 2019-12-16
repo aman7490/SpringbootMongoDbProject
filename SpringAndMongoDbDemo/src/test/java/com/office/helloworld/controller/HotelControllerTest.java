@@ -34,7 +34,7 @@ class HotelControllerTest {
 	ServiceImpl service;
 
 	Hotel hotel;
-	HotelDTO hoteldto;
+
 	@BeforeEach
 	void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this);
@@ -46,7 +46,7 @@ class HotelControllerTest {
 		Review review2 = new Review("MockUser2", 7, true);
 		List<Review> reviewlist = Arrays.asList(review,review2);
 		hotel = new Hotel("Mockid","Mockname", 7, address, reviewlist, 12);
-		hoteldto = new HotelDTO("Mockid","Mockname", 7, address, reviewlist, 12);
+	//	hoteldto = new HotelDTO("Mockid","Mockname", 7, address, reviewlist, 12);
 	//	BeanUtils.copyProperties(hotel, hoteldto);
 		
 	}
@@ -56,7 +56,7 @@ class HotelControllerTest {
 	final void getallhotels() {
 		List<Hotel> hotels=Arrays.asList(hotel);
 		when(service.getallhoteldetails()).thenReturn(hotels);
-		List<Hotel> hotelss = hotelcontroller.getallhotels(hotel);
+		List<Hotel> hotelss = hotelcontroller.getallhotels();
 		assertNotNull(hotelss);
 		assertEquals(hotels.get(0).getId(), hotelss.get(0).getId());
 		
@@ -90,9 +90,9 @@ class HotelControllerTest {
 	
 	@Test
 	final void updatehotel() {
-		when(service.updatehoteldetails(any(Hotel.class), anyString())).thenReturn(hotel);
+		when(service.updatehoteldetails(any(Hotel.class))).thenReturn(hotel);
 		
-		Hotel hotel1 = hotelcontroller.updatehotel(hotel, "Mockid");
+		Hotel hotel1 = hotelcontroller.updatehotel(hotel);
 		
 		assertNotNull(hotel1);
 		assertEquals(hotel.getId(), hotel1.getId());
@@ -103,11 +103,11 @@ class HotelControllerTest {
 	@Test
 	final void gethoteldetailsbyid() {
 		
-		when(service.gethoteldetailssbyid(anyString())).thenReturn(hoteldto);
-		HotelDTO hotel1 = hotelcontroller.gethoteldetailsbyid(anyString());
+		when(service.gethoteldetailssbyid(anyString())).thenReturn(hotel);
+		Hotel hotel1 = hotelcontroller.gethoteldetailsbyid(anyString());
 		
 		assertNotNull(hotel1);
-		assertEquals(hoteldto.getId(), hotel1.getId());
+		assertEquals(hotel.getId(), hotel1.getId());
 		
 	}
 	
