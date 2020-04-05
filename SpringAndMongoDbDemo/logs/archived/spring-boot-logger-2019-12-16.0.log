@@ -1,0 +1,80 @@
+2019-12-16 12:14:21,524 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10980 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-16 12:14:21,562 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-16 12:15:49,256 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 7348 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-16 12:15:49,263 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-16 12:16:32,538 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9236 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-16 12:16:32,561 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-16 12:16:38,649 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 7.199 seconds (JVM running for 9.105)
+2019-12-16 12:18:54,652 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Add hotels hotels resource - info
+2019-12-16 12:18:54,652 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Add hotels resource - warn
+2019-12-16 12:18:54,653 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get aadhotel info Service layer :::::info::
+2019-12-16 12:18:54,653 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get addhotel warn Service layer :::::warn::
+2019-12-16 12:19:43,506 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] Fetching all hotels resource
+2019-12-16 12:19:43,507 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] Fetching all hotels resource
+2019-12-16 12:19:43,508 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get allhotel Service layer :::::info::
+2019-12-16 12:19:43,508 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get allhotel Service layer :::::warn::
+2019-12-16 12:20:36,257 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] update hotels hotels resource - info
+2019-12-16 12:20:36,259 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] update hotels resource - warn
+2019-12-16 12:20:36,262 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get updatehotel Service layer :::::info::
+2019-12-16 12:20:36,263 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get updatehotels Service layer :::::warn::
+2019-12-16 12:20:53,571 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel Id Service layer :::::info::
+2019-12-16 12:20:53,572 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get hotel Id Service layer :::::warn::
+2019-12-16 12:20:53,621 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] getbyid hotels hotels resource - info
+2019-12-16 12:20:53,622 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] getbyid hotels resource - warn
+2019-12-16 12:21:05,752 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] getbyrate hotels hotels resource - info
+2019-12-16 12:21:05,754 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] getbyrate hotels resource - warn
+2019-12-16 12:21:05,754 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by ratedetails Service layer :::::info::
+2019-12-16 12:21:05,755 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get hotel by ratedetails warn layer :::::warn::
+2019-12-16 12:22:00,392 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] findbycountry hotels hotels resource - info
+2019-12-16 12:22:00,393 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] findbycountry hotels resource - warn
+2019-12-16 12:22:00,394 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel country info Service layer :::::info::
+2019-12-16 12:22:00,395 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get hotel country warn Service layer :::::warn::
+2019-12-16 12:22:17,708 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] getbyid2 hotels hotels resource - info
+2019-12-16 12:22:17,710 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] getbyid2 hotels resource - warn
+2019-12-16 12:22:17,710 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hoteldetails by id Service layer :::::info::
+2019-12-16 12:22:17,711 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get hoteldetailswarn by Id Service layer :::::warn::
+2019-12-16 12:22:27,392 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] getbyid2 hotels hotels resource - info
+2019-12-16 12:22:27,393 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] getbyid2 hotels resource - warn
+2019-12-16 12:22:27,394 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get hoteldetails by id Service layer :::::info::
+2019-12-16 12:22:27,395 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get hoteldetailswarn by Id Service layer :::::warn::
+2019-12-16 12:24:06,884 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] findbycity hotels hotels resource - info
+2019-12-16 12:24:06,886 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] findbycity hotels resource - warn
+2019-12-16 12:24:06,888 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] find hotel info by Id Service layer :::::info::
+2019-12-16 12:24:06,892 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] find hotel warn by Id Service layer :::::warn::
+2019-12-16 12:47:02,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplicationTests on Vlap1124 with PID 11556 (started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-16 12:47:02,897 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-16 12:47:11,443 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplicationTests in 10.567 seconds (JVM running for 19.971)
+2019-12-16 12:47:11,646 INFO com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-16 12:47:11,647 WARN com.office.helloworld.controller.HotelController [main] Fetching all hotels resource
+2019-12-16 12:47:11,652 INFO com.office.helloworld.controller.HotelController [main] getbyid2 hotels hotels resource - info
+2019-12-16 12:47:11,652 WARN com.office.helloworld.controller.HotelController [main] getbyid2 hotels resource - warn
+2019-12-16 12:47:11,656 INFO com.office.helloworld.controller.HotelController [main] Add hotels hotels resource - info
+2019-12-16 12:47:11,657 WARN com.office.helloworld.controller.HotelController [main] Add hotels resource - warn
+2019-12-16 12:47:11,661 INFO com.office.helloworld.controller.HotelController [main] update hotels hotels resource - info
+2019-12-16 12:47:11,661 WARN com.office.helloworld.controller.HotelController [main] update hotels resource - warn
+2019-12-16 12:47:11,666 INFO com.office.helloworld.controller.HotelController [main] findbycity hotels hotels resource - info
+2019-12-16 12:47:11,667 WARN com.office.helloworld.controller.HotelController [main] findbycity hotels resource - warn
+2019-12-16 17:54:59,888 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Add hotels hotels resource - info
+2019-12-16 17:55:00,640 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Add hotels resource - warn
+2019-12-16 17:55:00,641 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get aadhotel info Service layer :::::info::
+2019-12-16 17:55:00,698 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get addhotel warn Service layer :::::warn::
+2019-12-16 17:55:21,422 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel Id Service layer :::::info::
+2019-12-16 17:55:21,424 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get hotel Id Service layer :::::warn::
+2019-12-16 17:55:21,891 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyid hotels hotels resource - info
+2019-12-16 17:55:21,899 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] getbyid hotels resource - warn
+2019-12-16 17:55:39,765 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] update hotels hotels resource - info
+2019-12-16 17:55:39,789 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] update hotels resource - warn
+2019-12-16 17:55:39,790 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get updatehotel Service layer :::::info::
+2019-12-16 17:55:39,807 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get updatehotels Service layer :::::warn::
+2019-12-16 17:56:17,961 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] update hotels hotels resource - info
+2019-12-16 17:56:17,988 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] update hotels resource - warn
+2019-12-16 17:56:17,988 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get updatehotel Service layer :::::info::
+2019-12-16 17:56:17,989 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get updatehotels Service layer :::::warn::
+2019-12-16 18:19:26,820 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Add hotels hotels resource - info
+2019-12-16 18:19:26,866 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Add hotels resource - warn
+2019-12-16 18:19:26,866 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get aadhotel info Service layer :::::info::
+2019-12-16 18:19:26,867 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get addhotel warn Service layer :::::warn::
+2019-12-16 18:19:46,474 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] update hotels hotels resource - info
+2019-12-16 18:19:46,550 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] update hotels resource - warn
+2019-12-16 18:19:46,551 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get updatehotel Service layer :::::info::
+2019-12-16 18:19:46,552 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get updatehotels Service layer :::::warn::

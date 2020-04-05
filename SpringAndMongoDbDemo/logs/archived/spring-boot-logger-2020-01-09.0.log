@@ -1,0 +1,7 @@
+2020-01-09 22:37:23,611 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11616 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2020-01-09 22:37:23,645 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 22:37:59,599 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 46.673 seconds (JVM running for 53.475)
+2020-01-09 22:38:29,249 INFO com.office.helloworld.controller.HotelController [http-nio-8082-exec-1] Fetching all hotels resource
+2020-01-09 22:38:29,253 WARN com.office.helloworld.controller.HotelController [http-nio-8082-exec-1] Fetching all hotels resource
+2020-01-09 22:38:29,254 INFO com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-1] Get allhotel Service layer :::::info::
+2020-01-09 22:38:29,255 WARN com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-1] Get allhotel Service layer :::::warn::

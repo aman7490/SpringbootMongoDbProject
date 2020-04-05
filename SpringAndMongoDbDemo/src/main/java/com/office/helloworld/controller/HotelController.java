@@ -2,10 +2,11 @@ package com.office.helloworld.controller;
 
 import java.util.List;
 import java.util.Optional;
+
 import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -46,23 +47,21 @@ public class HotelController {
 	}
 
 	@PostMapping("/add")
-	public Hotel addhotel(@Valid @RequestBody Hotel hotel) {
+	public Hotel addhotel(@Valid @RequestBody HotelDTO hoteldto) {
 		
 		log.info("Add hotels hotels resource - info");
 		log.warn("Add hotels resource - warn");
 		log.debug("Add hotels - debug");
-
-		return serviceimpl.addhoteldetails(hotel);
-		
+		return serviceimpl.addhoteldetails(hoteldto);
 	}
 
 	@PutMapping("/update/{id}")
 
-	public Hotel updatehotel(@RequestBody Hotel hotel) {
+	public Hotel updatehotel(@RequestBody HotelDTO hoteldto) {
 	log.info("update hotels hotels resource - info");
 		log.warn("update hotels resource - warn");
 		log.debug("update hotels - debug");
-		return serviceimpl.updatehoteldetails(hotel);
+		return serviceimpl.updatehoteldetails(hoteldto);
 	
 	}
 

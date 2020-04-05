@@ -3,6 +3,7 @@ package com.office.helloworld.controller;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
+import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
 
@@ -33,6 +34,7 @@ class HotelControllerTest {
 	@Mock
 	ServiceImpl service;
 
+	HotelDTO hoteldto;
 	Hotel hotel;
 
 	@BeforeEach
@@ -78,21 +80,51 @@ class HotelControllerTest {
 	
 	@Test
 	final void addhotel() {
-		when(service.addhoteldetails(any(Hotel.class))).thenReturn(hotel);
-		Hotel hotel1 = hotelcontroller.addhotel(hotel);
+		
+		
+		Address address = new Address("Mockcity", "MockCountry");
+		Review review =  new Review("Mockuser", 7, true); 
+		Review review2 = new Review("MockUser2", 7, true);
+		List<Review> reviewlist = Arrays.asList(review,review2);
+		hotel = new Hotel("Mockid","Mockname", 7, address, reviewlist, 12);
+		
+	
+		when(service.addhoteldetails(any(HotelDTO.class))).thenReturn(hotel);
+		hoteldto=null;
+		hoteldto.setId(hotel.getId());
+		hoteldto.setName(hotel.getName());
+		hoteldto.setPricePerNight(hotel.getPricePerNight());
+		hoteldto.setRatepernight(hotel.getRatepernight());
+	//	hoteldto.setReviews(hotel.getReviews().get(0).getUsername());
+		hoteldto.setReviews(reviewlist);
+		hoteldto.setAddress(address);
+	//	hoteldto.setDatetime();
+		
+		//BeanUtils.copyProperties(hotel, hoteldto);
+		
+		Hotel hotel1 = hotelcontroller.addhotel(hoteldto);
 		assertNotNull(hotel1);
-		assertEquals(hotel.getId(), hotel1.getId());
-		assertEquals(hotel.getName(), hotel1.getName());
-		assertEquals(hotel.getPricePerNight(), hotel1.getPricePerNight());
-		assertEquals(hotel.getRatepernight(), hotel1.getRatepernight());
-		assertEquals(hotel.getReviews().get(0).getRating(), hotel1.getReviews().get(0).getRating());		
+		assertEquals(hoteldto.getId(), hotel1.getId());
+		assertEquals(hoteldto.getName(), hotel1.getName());
+		assertEquals(hoteldto.getPricePerNight(), hotel1.getPricePerNight());
+		assertEquals(hoteldto.getRatepernight(), hotel1.getRatepernight());
+		assertEquals(hoteldto.getReviews().get(0).getRating(), hotel1.getReviews().get(0).getRating());		
 	}
 	
 	@Test
 	final void updatehotel() {
-		when(service.updatehoteldetails(any(Hotel.class))).thenReturn(hotel);
 		
-		Hotel hotel1 = hotelcontroller.updatehotel(hotel);
+		Address address = new Address("Mockcity", "MockCountry");
+		Review review =  new Review("Mockuser", 7, true); 
+		Review review2 = new Review("MockUser2", 7, true);
+		List<Review> reviewlist = Arrays.asList(review,review2);
+		Hotel hotel = new Hotel("Mockid","Mockname", 7, address, reviewlist, 12);
+		
+		BeanUtils.copyProperties(hotel, hoteldto);
+		
+		when(service.updatehoteldetails(any(HotelDTO.class))).thenReturn(hotel);
+		
+		Hotel hotel1 = hotelcontroller.updatehotel(hoteldto);
 		
 		assertNotNull(hotel1);
 		assertEquals(hotel.getId(), hotel1.getId());

@@ -63,23 +63,7 @@ public class HotelDTO {
 		this.datetime = datetime;
 	}
 	
-/*	public HotelDTO() {
-		
-	}
-	
-	
-	public HotelDTO(String id, String name, Integer pricePerNight, Address address, List<Review> reviews,
-			Integer ratepernight) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.pricePerNight = pricePerNight;
-		this.address = address;
-		this.reviews = reviews;
-		this.ratepernight = ratepernight;
 
-	}
-	
 	
 	@Override
 	public String toString() {
@@ -88,6 +72,5 @@ public class HotelDTO {
 	}
 	
 	
-	*/
 	
 }

@@ -39,7 +39,7 @@ class ServiceImplTest {
 	@Mock
 	HotelRepository hotelRepository;
 	
-	Hotel hotel;
+	Hotel hotel123;
 	HotelDTO hoteldto;
 	
 	@BeforeEach
@@ -50,7 +50,7 @@ class ServiceImplTest {
 		Review review =  new Review("Mockuser", 7, true); 
 		Review review2 = new Review("MockUser2", 7, true);
 		List<Review> reviewlist = Arrays.asList(review,review2);
-//		hoteldto = new HotelDTO("Mockid1","Mockname", 7, address, reviewlist, 12);
+		hotel123 = new Hotel("updateMockid","Mockname", 7, address, reviewlist, 12);
 		
 	}
 
@@ -196,8 +196,8 @@ class ServiceImplTest {
 		Hotel hotel = new Hotel("createMockid","Mockname", 7, address, reviewlist, 12);
 		//Hotel hoteldto = new HotelDTO("createMockid","Mockname", 7, address, reviewlist, 12);
 		when(hotelRepository.insert(any(Hotel.class))).thenReturn(hotel);
-		
-		Hotel hoteldetails = serviceimpl.addhoteldetails(hotel);
+		BeanUtils.copyProperties(hotel, hoteldto);
+		Hotel hoteldetails = serviceimpl.addhoteldetails(hoteldto);
 		
 		assertNotNull(hoteldetails);
 		
@@ -211,9 +211,10 @@ class ServiceImplTest {
 	@Test
 	final void updatehoteldetails() {
 		
+		BeanUtils.copyProperties(hotel123, hoteldto);
 		
-		when(hotelRepository.save(any(Hotel.class))).thenReturn(hotel);
-		Hotel hoteldetail = serviceimpl.updatehoteldetails(hotel);
+		when(hotelRepository.save(any(HotelDTO.class))).thenReturn(hotel123);
+		Hotel hoteldetail = serviceimpl.updatehoteldetails(hoteldto);
 		assertNotNull(hoteldetail);
 		assertEquals("updateMockid", hoteldetail.getId());
 		

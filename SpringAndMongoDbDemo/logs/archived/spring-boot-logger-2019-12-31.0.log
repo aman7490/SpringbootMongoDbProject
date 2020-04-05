@@ -1,0 +1,3 @@
+2019-12-31 12:09:54,536 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 2944 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-31 12:09:54,543 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-31 12:10:01,593 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.203 seconds (JVM running for 9.994)

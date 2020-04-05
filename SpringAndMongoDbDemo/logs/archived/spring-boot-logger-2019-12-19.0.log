@@ -1,0 +1,122 @@
+2019-12-19 12:22:22,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9680 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 12:22:22,027 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 12:22:36,801 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 16.465 seconds (JVM running for 18.796)
+2019-12-19 12:23:54,813 INFO com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-2] Fetching all hotels resource
+2019-12-19 12:23:54,814 WARN com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-2] Fetching all hotels resource
+2019-12-19 12:23:54,815 INFO com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-2] Get allhotel Service layer :::::info::
+2019-12-19 12:23:54,816 WARN com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-2] Get allhotel Service layer :::::warn::
+2019-12-19 12:24:27,452 INFO com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-3] Fetching all hotels resource
+2019-12-19 12:24:27,453 WARN com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-3] Fetching all hotels resource
+2019-12-19 12:24:27,454 INFO com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-3] Get allhotel Service layer :::::info::
+2019-12-19 12:24:27,455 WARN com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-3] Get allhotel Service layer :::::warn::
+2019-12-19 12:24:45,720 INFO com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-2] Fetching all hotels resource
+2019-12-19 12:24:45,721 WARN com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-2] Fetching all hotels resource
+2019-12-19 12:24:45,722 INFO com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-2] Get allhotel Service layer :::::info::
+2019-12-19 12:24:45,723 WARN com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-2] Get allhotel Service layer :::::warn::
+2019-12-19 12:25:36,059 INFO com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-1] Fetching all hotels resource
+2019-12-19 12:25:36,061 WARN com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-1] Fetching all hotels resource
+2019-12-19 12:25:36,062 INFO com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-1] Get allhotel Service layer :::::info::
+2019-12-19 12:25:36,063 WARN com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-1] Get allhotel Service layer :::::warn::
+2019-12-19 12:37:03,787 INFO com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-6] Fetching all hotels resource
+2019-12-19 12:37:03,789 WARN com.office.helloworld.controller.HotelController [https-jsse-nio-443-exec-6] Fetching all hotels resource
+2019-12-19 12:37:03,790 INFO com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-6] Get allhotel Service layer :::::info::
+2019-12-19 12:37:03,793 WARN com.office.helloworld.service.ServiceImpl [https-jsse-nio-443-exec-6] Get allhotel Service layer :::::warn::
+2019-12-19 15:04:48,531 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6688 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:04:48,540 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:07:16,152 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6692 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:07:16,159 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:09:32,301 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11548 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:09:32,308 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:11:35,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11948 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:11:35,464 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:11:47,504 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 13.099 seconds (JVM running for 15.215)
+2019-12-19 15:26:36,435 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12348 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:26:36,442 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:26:46,009 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 10.742 seconds (JVM running for 12.475)
+2019-12-19 15:34:07,579 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11568 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:34:07,586 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:34:28,643 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10508 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 15:34:28,651 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 15:34:38,145 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 10.706 seconds (JVM running for 12.655)
+2019-12-19 16:19:10,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12748 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:19:10,035 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:19:44,358 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 8008 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:19:44,364 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:20:11,848 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12760 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:20:11,853 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:49:46,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6100 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:49:46,154 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:51:28,934 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 14744 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:51:28,942 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:51:36,541 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.619 seconds (JVM running for 10.608)
+2019-12-19 16:54:23,134 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11736 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 16:54:23,140 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 16:54:29,658 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 7.394 seconds (JVM running for 9.157)
+2019-12-19 16:56:13,229 INFO com.office.helloworld.controller.HotelController [http-nio-8082-exec-5] Add hotels hotels resource - info
+2019-12-19 16:56:13,231 WARN com.office.helloworld.controller.HotelController [http-nio-8082-exec-5] Add hotels resource - warn
+2019-12-19 16:56:13,232 INFO com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-5] Get aadhotel info Service layer :::::info::
+2019-12-19 16:56:13,232 WARN com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-5] Get addhotel warn Service layer :::::warn::
+2019-12-19 16:56:13,888 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-5]  Function handleAllExceptions
+2019-12-19 16:56:24,885 INFO com.office.helloworld.controller.HotelController [http-nio-8082-exec-6] Add hotels hotels resource - info
+2019-12-19 16:56:24,886 WARN com.office.helloworld.controller.HotelController [http-nio-8082-exec-6] Add hotels resource - warn
+2019-12-19 16:56:24,887 INFO com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-6] Get aadhotel info Service layer :::::info::
+2019-12-19 16:56:24,887 WARN com.office.helloworld.service.ServiceImpl [http-nio-8082-exec-6] Get addhotel warn Service layer :::::warn::
+2019-12-19 17:06:43,213 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-4]  Function handleAllExceptions
+2019-12-19 17:40:20,971 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 5224 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 17:40:20,979 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 17:41:08,227 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10236 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 17:41:08,234 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 17:41:15,875 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.561 seconds (JVM running for 10.843)
+2019-12-19 17:41:23,539 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-3]  Function handleAllExceptions
+2019-12-19 17:43:10,427 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9196 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 17:43:10,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 17:43:28,545 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 15168 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 17:43:28,551 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 17:43:34,686 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 7.27 seconds (JVM running for 9.236)
+2019-12-19 17:43:52,073 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-2]  Function handleAllExceptions
+2019-12-19 17:43:54,196 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-3]  Function handleAllExceptions
+2019-12-19 17:44:25,859 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-6]  Function handleAllExceptions
+2019-12-19 17:44:35,608 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-7]  Function handleAllExceptions
+2019-12-19 18:09:39,577 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6692 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:09:39,584 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:09:47,575 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 9.063 seconds (JVM running for 10.839)
+2019-12-19 18:09:52,412 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-2]  Function handleAllExceptions
+2019-12-19 18:09:57,703 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-3]  Function handleAllExceptions
+2019-12-19 18:09:59,418 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-5]  Function handleAllExceptions
+2019-12-19 18:13:05,497 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 9920 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:13:05,505 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:13:12,975 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.641 seconds (JVM running for 10.796)
+2019-12-19 18:13:14,141 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-1]  Function handleAllExceptions
+2019-12-19 18:14:33,186 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 15940 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:14:33,193 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:14:41,145 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 9.161 seconds (JVM running for 11.452)
+2019-12-19 18:20:53,883 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11848 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:20:53,889 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:21:00,683 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 7.544 seconds (JVM running for 9.123)
+2019-12-19 18:21:09,793 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-2]  Function handleAllExceptions
+2019-12-19 18:22:37,090 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-4]  Function handleAllExceptions
+2019-12-19 18:22:46,806 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-5]  Function handleAllExceptions
+2019-12-19 18:22:53,882 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-7]  Function handleAllExceptions
+2019-12-19 18:23:00,532 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-10]  Function handleAllExceptions
+2019-12-19 18:23:17,127 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 15436 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:23:17,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:23:25,626 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 9.515 seconds (JVM running for 11.454)
+2019-12-19 18:23:26,672 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-1]  Function handleAllExceptions
+2019-12-19 18:27:13,768 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 15804 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:27:13,772 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:27:21,715 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.586 seconds (JVM running for 9.998)
+2019-12-19 18:30:26,907 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-3]  Function handleAllExceptions
+2019-12-19 18:31:18,345 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 14940 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:31:18,351 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:31:25,423 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.053 seconds (JVM running for 9.938)
+2019-12-19 18:31:35,024 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-1]  Function handleAllExceptions
+2019-12-19 18:31:55,968 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-7] handleMethodArgumentNotValid
+2019-12-19 18:32:11,930 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-2]  Function handleAllExceptions
+2019-12-19 18:32:33,458 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-10]  Function handleAllExceptions
+2019-12-19 18:32:57,003 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 8600 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:32:57,013 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:33:04,686 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 8.761 seconds (JVM running for 10.879)
+2019-12-19 18:33:35,700 ERROR com.office.helloworld.exception.CustomisexExceptionControllerAdvice [http-nio-8082-exec-2]  Function handleAllExceptions
+2019-12-19 18:35:27,910 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 12496 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-19 18:35:27,917 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-19 18:35:36,036 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 9.157 seconds (JVM running for 11.033)

@@ -1,0 +1,92 @@
+2019-12-18 12:58:41,179 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 7724 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 12:58:41,187 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 12:59:21,059 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 10012 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 12:59:21,063 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 13:01:28,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 8984 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 13:01:28,564 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 13:01:33,765 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.84 seconds (JVM running for 6.868)
+2019-12-18 13:02:24,892 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Fetching all hotels resource
+2019-12-18 13:02:24,893 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Fetching all hotels resource
+2019-12-18 13:02:24,893 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get allhotel Service layer :::::info::
+2019-12-18 13:02:24,894 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get allhotel Service layer :::::warn::
+2019-12-18 13:02:34,855 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:02:34,856 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:02:34,856 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::info::
+2019-12-18 13:02:34,857 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::warn::
+2019-12-18 13:02:35,435 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Fetching all hotels resource
+2019-12-18 13:02:35,436 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Fetching all hotels resource
+2019-12-18 13:02:35,436 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get allhotel Service layer :::::info::
+2019-12-18 13:02:35,437 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get allhotel Service layer :::::warn::
+2019-12-18 13:02:35,643 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-18 13:02:35,644 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-18 13:02:35,644 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get allhotel Service layer :::::info::
+2019-12-18 13:02:35,645 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get allhotel Service layer :::::warn::
+2019-12-18 13:02:35,818 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Fetching all hotels resource
+2019-12-18 13:02:35,819 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Fetching all hotels resource
+2019-12-18 13:02:35,820 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get allhotel Service layer :::::info::
+2019-12-18 13:02:35,820 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get allhotel Service layer :::::warn::
+2019-12-18 13:03:02,127 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 6244 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 13:03:02,133 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 13:03:07,791 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 6.327 seconds (JVM running for 7.372)
+2019-12-18 13:03:11,349 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11960 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 13:03:11,353 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 13:03:16,584 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.859 seconds (JVM running for 6.89)
+2019-12-18 13:03:50,564 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-18 13:03:50,565 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-18 13:03:50,566 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get allhotel Service layer :::::info::
+2019-12-18 13:03:50,566 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get allhotel Service layer :::::warn::
+2019-12-18 13:04:42,907 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringAndMongoDbDemoApplication on Vlap1124 with PID 11540 (C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo\target\classes started by amandeep.singh in C:\Users\amandeep.singh\git\SpringbootMongoDbProject\SpringAndMongoDbDemo)
+2019-12-18 13:04:42,912 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-18 13:04:47,982 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringAndMongoDbDemoApplication in 5.726 seconds (JVM running for 6.773)
+2019-12-18 13:05:22,963 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Fetching all hotels resource
+2019-12-18 13:05:22,964 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Fetching all hotels resource
+2019-12-18 13:05:22,965 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get allhotel Service layer :::::info::
+2019-12-18 13:05:22,965 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get allhotel Service layer :::::warn::
+2019-12-18 13:05:50,183 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:05:50,184 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:05:50,184 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::info::
+2019-12-18 13:05:50,185 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:19,773 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Fetching all hotels resource
+2019-12-18 13:07:19,774 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Fetching all hotels resource
+2019-12-18 13:07:19,775 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get allhotel Service layer :::::info::
+2019-12-18 13:07:19,775 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:30,057 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] Fetching all hotels resource
+2019-12-18 13:07:30,058 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-10] Fetching all hotels resource
+2019-12-18 13:07:30,059 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get allhotel Service layer :::::info::
+2019-12-18 13:07:30,059 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-10] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:30,955 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-18 13:07:30,955 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-1] Fetching all hotels resource
+2019-12-18 13:07:30,956 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get allhotel Service layer :::::info::
+2019-12-18 13:07:30,956 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-1] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,108 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Fetching all hotels resource
+2019-12-18 13:07:31,108 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-2] Fetching all hotels resource
+2019-12-18 13:07:31,109 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,109 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-2] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,249 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] Fetching all hotels resource
+2019-12-18 13:07:31,250 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-3] Fetching all hotels resource
+2019-12-18 13:07:31,251 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,251 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-3] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,405 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Fetching all hotels resource
+2019-12-18 13:07:31,406 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-4] Fetching all hotels resource
+2019-12-18 13:07:31,406 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,407 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-4] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,547 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:07:31,548 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-5] Fetching all hotels resource
+2019-12-18 13:07:31,549 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,549 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-5] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,720 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Fetching all hotels resource
+2019-12-18 13:07:31,720 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-6] Fetching all hotels resource
+2019-12-18 13:07:31,721 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,721 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-6] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:31,877 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-18 13:07:31,878 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-7] Fetching all hotels resource
+2019-12-18 13:07:31,879 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get allhotel Service layer :::::info::
+2019-12-18 13:07:31,879 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-7] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:32,035 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Fetching all hotels resource
+2019-12-18 13:07:32,038 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-8] Fetching all hotels resource
+2019-12-18 13:07:32,038 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get allhotel Service layer :::::info::
+2019-12-18 13:07:32,038 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-8] Get allhotel Service layer :::::warn::
+2019-12-18 13:07:32,193 INFO com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Fetching all hotels resource
+2019-12-18 13:07:32,194 WARN com.office.helloworld.controller.HotelController [http-nio-8080-exec-9] Fetching all hotels resource
+2019-12-18 13:07:32,195 INFO com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get allhotel Service layer :::::info::
+2019-12-18 13:07:32,195 WARN com.office.helloworld.service.ServiceImpl [http-nio-8080-exec-9] Get allhotel Service layer :::::warn::

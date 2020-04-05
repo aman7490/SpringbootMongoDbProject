@@ -28,7 +28,7 @@ public class ServiceImpl {
 		log.debug("Get allhotel Service layer :::::debug::");
 		List<Hotel> hotels = this.hotelRepository.findAll();
 		
-		if(hotels.isEmpty()) {
+		if(hotels == null) {
 			throw new HotelNotFoundException("There is no hotel in our records !");
 		//	throw new NullPointerException(id);  // using this for Junit test case.
 		}
@@ -62,22 +62,23 @@ public class ServiceImpl {
 		return hotel;
 	}
 	
-	public Hotel addhoteldetails(Hotel hotel) {
+	public Hotel addhoteldetails(HotelDTO hoteldto) {
 		log.info("Get aadhotel info Service layer :::::info::");
 		log.warn("Get addhotel warn Service layer :::::warn::");
 		log.debug("Get addhotels debug Service layer :::::debug::");
 		
-
-
+		Hotel hotel = new Hotel();
+		
+		BeanUtils.copyProperties(hoteldto, hotel);
 		return hotelRepository.insert(hotel);	
 	}
 	
-	public Hotel updatehoteldetails(Hotel hotel) {
+	public Hotel updatehoteldetails(HotelDTO hoteldto) {
 		log.info("Get updatehotel Service layer :::::info::"); 
 		log.warn("Get updatehotels Service layer :::::warn::");
 		log.debug("Get updatehotelss Service layer :::::debug::");
 
-		return hotelRepository.save(hotel);
+		return hotelRepository.save(hoteldto);
 	}
 	
 	public void deletehoteldetails(String id) {
